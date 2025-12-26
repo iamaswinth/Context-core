@@ -17,7 +17,7 @@ db = Chroma(
     collection_metadata={"hnsw:space":"cosine"}
 )
 
-query = "Who founded Alphabet, what are the products that are make by alphabet"
+query = "Tell me about nvidia"
 
 # retriever = db.as_retriever(search_kwargs = {"k":3})
 
